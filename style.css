@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+    padding-right: 5%;
+}
+
+.my-mission h1 {
+    text-align: center;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    background-color: orange;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+#code {
+    background-image: url(images/shapes/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+#project {
+    background-image: url(images/shapes/shape-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+#mission {
+    background-color: aqua;
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+#vission {
+    background-color: cadetblue;
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#goals {
+    background-color: burlywood;
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.tomato {
+    color: tomato;
+}
